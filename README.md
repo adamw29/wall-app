@@ -5,10 +5,10 @@ npm install
 npm start
 ```
 
-## Andoid
+## Android
 download and install /apk/app-release-unsigned.apk
 
-## Backend
+## Backend and database
 - backack is serverless aplication on www.back4app.com
 - cloud functions are in /coud/main.js
 - docs: https://docs.parseplatform.org/ 
