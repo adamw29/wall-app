@@ -1,0 +1,7 @@
+.item-radio {
+    margin-right: 10px;
+}
+
+.item-radio:focus {
+     outline: none;
+ }

@@ -1,0 +1,13 @@
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-icon {
+    font-size: 70px;
+    color: #569df3;
+}
+
+.row {
+    display: flex;
+}

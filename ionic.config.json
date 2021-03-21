@@ -1,0 +1,7 @@
+{
+  "name": "react-app-tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

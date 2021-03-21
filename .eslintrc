@@ -1,0 +1,109 @@
+{
+    "extends": [
+        "react-app"
+    ],
+    "plugins": [
+        "react"
+    ],
+    "settings": {
+        "import/resolver": "webpack"
+    },
+    "env": {
+        "browser": true,
+        "jest": true,
+        "node": true
+    },
+    "rules": {
+        "camelcase": "off",
+        "linebreak-style": 0,
+        "jsx-a11y/href-no-hash": "off",
+        "jsx-a11y/anchor-is-valid": ["error", {
+            "aspects": ["invalidHref"]
+        }],
+        "object-curly-newline": [
+            "off",
+            {
+                "ObjectPattern": "never"
+            }
+        ],
+        "jsx-a11y/img-has-alt": "off",
+        "jsx-a11y/alt-text": "error",
+        "jsx-a11y/label-has-for": [ "error", {
+            "required": {
+                "some": [ "nesting", "id"  ]
+            }
+        }],
+        "jsx-a11y/label-has-associated-control": [ "error", {
+            "required": {
+                "some": [ "nesting", "id"  ]
+            }
+        }],
+        "indent": ["error", 4],
+        "no-console": "warn",
+        "no-confusing-arrow": [0],
+        "import/no-extraneous-dependencies": [0],
+        "no-underscore-dangle": ["error", {
+            "allowAfterThis": true,
+            "allowAfterSuper": true
+        }],
+        "comma-dangle": ["error", {
+            "functions": "never",
+            "arrays": "always-multiline",
+            "objects": "always-multiline",
+            "imports": "always-multiline",
+            "exports": "always-multiline"
+        }],
+        "max-len": ["error", {
+            "code": 150,
+            "ignoreStrings": true,
+            "ignoreUrls": true,
+            "ignoreComments": true
+        }],
+        "max-depth": ["error", 4],
+        "max-nested-callbacks": ["error", 4],
+        "complexity": ["warn", 10],
+        "key-spacing": ["error", {
+            "multiLine":  { "mode": "minimum" }
+        }],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/forbid-prop-types": ["warn", {
+            "forbid": ["any", "array"]
+        }],
+        "no-warning-comments": ["warn", {
+            "terms": ["todo", "@todo"],
+            "location": "start"
+        }],
+        "react/forbid-foreign-prop-types": "error",
+        "react/sort-comp": [0],
+        "react/require-default-props": "off",
+        "react/no-array-index-key": "warn",
+        "react/boolean-prop-naming": ["error", {
+                "rule": "(async|autocomplete|autofocus|autoplay|border|challenge|checked|compact|controls|default|defer|disabled|on|should|formNoValidate|frameborder|hidden|indeterminate|ismap|loop|multiple|muted|nohref|noresize|noshade|novalidate|nowrap|open|readonly|required|reversed|scoped|scrolling|seamless|selected|spellcheck|translate|[A-Za-z0-9]*(ed|ing)$|^(is|has|show)[A-Z][A-Za-z0-9]*|^[a-z]+able$)"
+            }],
+        "react/no-access-state-in-setstate": "error",
+        "react/no-direct-mutation-state": "error",
+        "react/no-typos": "error",
+        "react/jsx-handler-names": "warn",
+        "react/no-unused-state": "warn",
+        "react/sort-prop-types": "warn",
+        "react/jsx-sort-props": "warn",
+        "react/jsx-sort-default-props": "warn",
+        "react/jsx-wrap-multilines": ["error", {
+            "declaration": "parens-new-line",
+            "assignment": "parens-new-line",
+            "return": "parens-new-line",
+            "arrow": "parens-new-line",
+            "condition": "parens-new-line",
+            "logical": "parens-new-line",
+            "prop": "parens-new-line"
+        }],
+        "function-paren-newline": ["error", "consistent"]
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    }
+}
