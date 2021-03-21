@@ -7,6 +7,7 @@ npm start
 
 ## Android
 download and install /apk/app-release-unsigned.apk
+- docs: https://ionicframework.com/docs/developing/android
 
 ## Backend and database
 - backack is serverless aplication on www.back4app.com
@@ -27,3 +28,7 @@ As an authenticated user you can:
 - see one list of items of both types: food and drinks for all users
 - create a new item (both types)
 - see and remove only your item
+
+## Technologies
+- https://ionicframework.com/
+- https://recoiljs.org/
